@@ -1,0 +1,16 @@
+[
+{"customer_id": 1, 
+"age": 25, 
+"purchase_history": ["item1", "item2"],
+"total_spent": 150},
+
+{"customer_id": 2, 
+"age": 12, 
+"purchase_history": ["item1", "item2", "item3"],
+"total_spent": 200},
+
+{"customer_id": 3, 
+"age": 6, 
+"purchase_history": ["item1"],
+"total_spent": 1}
+]
