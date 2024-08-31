@@ -1,8 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+    font-family: 'Courier New', Courier, monospace;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +9,11 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1{
     color: #333;
 }
 
-button {
+button{
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
@@ -24,6 +23,6 @@ button {
     margin-top: 20px;
 }
 
-button:hover {
+button:hover{
     background-color: #0056b3;
 }

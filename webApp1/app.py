@@ -1,3 +1,5 @@
+# pip install flask
+# To run the web app, use python app.py
 from flask import Flask, render_template
 
 app = Flask(__name__)
