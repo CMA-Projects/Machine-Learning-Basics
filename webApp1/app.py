@@ -28,8 +28,8 @@ def predict():
         input_values = data.get('inputs')
         
         # Check if the input values have exactly 4 elements
-        if not input_values or len(input_values) != 4:
-            return jsonify({'error': 'Input must be a list of 4 numerical values'}), 400
+        if not input_values or len(input_values) != 5:
+            return jsonify({'error': 'Input must be a list of 5 numerical values'}), 400
         
         # Convert the input values to a 2D numpy array
         input_array = np.array([input_values])
